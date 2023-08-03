@@ -9,7 +9,8 @@
 
             string[] array = input.Split(' ');
 
-            
+            Console.WriteLine(string.Join(",", array));
+
         }
 
         static string[] FilterArray(string[] array)
